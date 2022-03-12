@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Gui.MenuAdminController">
+   <children>
+      <Button defaultButton="true" layoutX="154.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="92.0" text="Commandes" textFill="WHITE" underline="true" />
+      <Button defaultButton="true" layoutX="246.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="92.0" text="Paiements" textFill="WHITE" underline="true" />
+      <Button defaultButton="true" layoutX="338.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="102.0" text="Événements" textFill="WHITE" underline="true" />
+      <Button defaultButton="true" layoutX="440.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="92.0" text="Fichiers" textFill="WHITE" underline="true" />
+      <Button defaultButton="true" layoutX="532.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="92.0" text="Déconnexion" textFill="WHITE" textOverrun="CLIP" underline="true" />
+      <Button defaultButton="true" mnemonicParsing="false" prefHeight="45.0" prefWidth="78.0" text="Accueil" textFill="WHITE" underline="true" />
+      <Button defaultButton="true" layoutX="69.0" mnemonicParsing="false" onMouseClicked="#Produit" prefHeight="45.0" prefWidth="85.0" text="Produits" textFill="WHITE" underline="true" />
+   </children>
+</AnchorPane>
